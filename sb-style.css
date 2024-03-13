@@ -11,6 +11,7 @@
   }
   
   h1{
+    text-align: center;
      padding: 30px; 
      font-family: Arial;
      font-size: 40px;
@@ -79,7 +80,22 @@
     font-style: italic;
   }
   
+@media(max-width: 550px){
+  body{
+    padding:0;
+    margin: 0;
+  }
+  .lifestyle{
+    padding: 0;
+  }
+}
   a{
     color: #5d05b5;
   }
-  
+  p{
+    font-size: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial;
+  }
