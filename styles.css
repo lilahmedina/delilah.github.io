@@ -1,22 +1,27 @@
-
-body{
+:root{
+  --body: rgb(22, 23, 23);
+  --hover: grey;
+  --welcome-section: rgb(29, 29, 29);
+  --project-tile: rgb(44, 44, 45);
   font-family: Poppins, Sans-serif;
+}
+body{
+  
   margin: 0;
   padding: 0;
+  background-color: var(--welcome-section);
 }
 
 #navbar{
-  background-color: lightblue;
+  background-color: var(--body);
   position: sticky;
-  top: 0;
-  left: 0;
+  margin: auto;
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
 #nav-list{
-  
   display: flex;
   flex-direction: row;
 }
@@ -30,10 +35,11 @@ a{
   text-decoration: none;
   font-size: 1.5em;
   padding: 1rem 2rem;
+  
 }
 
 a:hover{
-  background-color: grey;
+  background-color: var(--hover);
 }
 
 #welcome-section{
@@ -43,28 +49,46 @@ a:hover{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(62deg,#e66465, #9198e5);
 }
 
 h1{
-  color: white;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 1200;
+  /** TEXT GRADIENT */ 
+  background: #ff0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(62deg,#e66465, #9198e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(62deg,#e66465, #9198e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+          
 }
 
 #welcome-section > p {
   color: white;
   font-style: italic;
-  font-weight: 100;
-  font-size: 2rem
-  
+  font-weight: 700;
+  /** TEXT GRADIENT */ 
+  background: #ff0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(62deg,#e66465, #9198e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(62deg,#e66465, #9198e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 
 
 h2{
   font-size: 3.2rem;
-  color: white;
+  /** TEXT GRADIENT */ 
+  background: #ff0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(62deg,#e66465, #9198e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(62deg,#e66465, #9198e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
   margin: 0;
 }
 
@@ -80,19 +104,22 @@ h2{
   #nav-list{
     display: grid;
     text-align: center;
-   
+    justify-content: center;
+    width: 100%;
   }
   #navbar{
     justify-content: center;
-   
+    top: 0;
+    left: 0;
+    
   }
 }
 .projects{
   text-align: center;
-  background-color: lightblue;
+  background-color: var(--body);
   margin:0;
   padding: 10rem 2rem;
-  
+ 
 }
 
 .project-img{
@@ -103,11 +130,12 @@ h2{
 
 .project-tile{
   color: white;
-  background-color: #559ed0;
+  background-color: var(--project-tile);
   padding: 2em;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #project-grid > .project-tile{
@@ -121,7 +149,7 @@ h2{
 }
 
 #contact{
-  background-color: #559ed0;
+  background-color:  var(--project-tile);
   width: 100%;
   height: 80vh;
   margin:0;
