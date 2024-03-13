@@ -7,7 +7,7 @@ body{
 
 #navbar{
   background-color: lightblue;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -16,6 +16,7 @@ body{
 }
 
 #nav-list{
+  
   display: flex;
   flex-direction: row;
 }
@@ -56,14 +57,10 @@ h1{
   font-style: italic;
   font-weight: 100;
   font-size: 2rem
+  
 }
 
-.projects{
-  text-align: center;
-  background-color: lightblue;
-  margin:0;
-  padding: 10rem 2rem;
-}
+
 
 h2{
   font-size: 3.2rem;
@@ -71,10 +68,20 @@ h2{
   margin: 0;
 }
 
-@media(max-width: 800px){
+@media(max-width: 550px){
   h2{
     font-size: 2.6rem;
   }
+  li{
+    font-size: 0.9rem;
+  }
+}
+.projects{
+  text-align: center;
+  background-color: lightblue;
+  margin:0;
+  padding: 10rem 2rem;
+  
 }
 
 .project-img{
@@ -85,21 +92,21 @@ h2{
 
 .project-tile{
   color: white;
-  width: auto;
   background-color: #559ed0;
   padding: 2em;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.projects-grid{
+#project-grid > .project-tile{
   display: grid;
-  grid-template-columns: repeat(auto-fix, minmax(320px, 1fr));
   grid-gap: 4rem;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
   margin-bottom: 6rem;
-  display: flex;
+  
 }
 
 #contact{
@@ -111,10 +118,10 @@ h2{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  
 }
 
-.contact-p{
+.contact-a{
   font-style: italic;
   font-weight: 70px;
   text-align: center;
