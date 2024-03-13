@@ -74,6 +74,17 @@ h2{
   }
   li{
     font-size: 0.9rem;
+    margin: auto;
+    padding: 10px;
+  }
+  #nav-list{
+    display: grid;
+    text-align: center;
+   
+  }
+  #navbar{
+    justify-content: center;
+   
   }
 }
 .projects{
