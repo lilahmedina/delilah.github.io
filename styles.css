@@ -159,6 +159,7 @@ h2{
     font-size: 0.9rem;
     margin: auto;
     padding: 10px;
+    margin: 10px;
   }
   #nav-list{
     display: grid;
