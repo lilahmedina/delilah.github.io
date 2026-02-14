@@ -1,6 +1,0 @@
-[submodule "delilah.github.io"]
-	path = delilah.github.io
-	url = https://github.com/lilahmedina/updated-portfolio.git
-[submodule "updated-portfolio"]
-	path = updated-portfolio
-	url = https://github.com/lilahmedina/updated-portfolio.git
