@@ -1,0 +1,101 @@
+
+:root{
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .bold{
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+  }
+  
+  h1{
+    text-align: center;
+     padding: 30px; 
+     font-family: Arial;
+     font-size: 40px;
+  }
+  
+  h3{
+    background-image: linear-gradient(15deg, #bae3ff, #75c8ff);
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial;
+  }
+  
+  body {
+    background-image: radial-gradient(circle,#d9f0ff,#bae3ff, #87cfff
+    );
+    font-family: Arial;
+    text-align: left;
+  }
+  
+  .img-container{
+    margin: auto;
+    padding: 30px;
+    background-image:linear-gradient(15deg, #bae3ff, #b5e1ff);
+    border-radius: 10px;
+  }
+  
+  .img-snowboard{
+    border-radius: 10px;
+    object-fit: contain;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+  }
+  
+  .caption{
+    padding-top: 5px; 
+    text-align: center;
+  }
+  
+  .lifestyle{
+    font-size: 20px;
+    padding: 30px 70px;
+    max-width: 600px;
+    margin: 10px auto;
+    background-image:linear-gradient(15deg, #a8dcff, #b5e1ff);
+  }
+  
+  .lifesyle-header{
+    font-size: 25px;
+    padding: 30px;
+  }
+  
+  li{
+    margin: 20px;
+  }
+  
+  .quote{
+     margin: 30px 30px 5px;
+     font-style: italic;
+  }
+  .quote-author{
+    text-indent: 30px;
+    font-style: italic;
+  }
+  
+@media(max-width: 550px){
+  body{
+    padding:0;
+    margin: 0;
+  }
+  .lifestyle{
+    padding: 0;
+  }
+}
+  a{
+    color: #5d05b5;
+  }
+  p{
+    font-size: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial;
+  }
