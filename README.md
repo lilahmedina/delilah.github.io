@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Launch Page
 
-Visit this site to launch my portfolio: https://lilahmedina.github.io/delilah.github.io/
+Visit this site to launch my portfolio: https://lilahmedina.github.io/delilah
 
 ### Contributing <a name = "CONTRIBUTING"></a>
 
